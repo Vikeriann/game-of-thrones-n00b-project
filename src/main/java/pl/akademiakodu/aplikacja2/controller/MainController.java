@@ -12,7 +12,7 @@ public class MainController
 //    @ResponseBody
     public String home(ModelMap modelMap)
     {
-        modelMap.put("hello", "Gra o Tron");
+        modelMap.put("hello", "Gra o Tron 232424");
         return "hello";
     }
 }
