@@ -1,0 +1,249 @@
+/*
+CSS file created with:Instantblueprint - Create a web project framework in seconds.
+http://instantblueprint.com
+Project: Gra przeglądarkowa
+File: css/style.css
+Last edited: May 28, 2015, 11:21 pm
+*/
+
+/*  Main  */
+html,
+body 
+{
+	margin:0;
+	padding:0;
+	height:100%;
+    background-image: url("Konachan.com - 255993 sample.jpg");
+    background-color: #000000;
+    color: #cce0ff;
+/*    background: rgba(204,204,204,1); */
+}
+ 
+a {
+	text-decoration: none;	
+    text-decoration-color: #500500;
+}
+ 
+.hide {
+	text-indent: -998em;
+	height: 0px;
+}
+ 
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;	
+	font-size: 44px;
+	color: #500500;
+        line-height: 80px;
+}
+ 
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+ 
+#menu {
+	height: 80px;	
+	background: rgba(0,0,0,1);
+}
+ 
+#pasek_nawi { 
+	height: 80px;	
+	background: rgba(0,0,0,1);
+	border: none;
+}
+ 
+ 
+#ul_nawigacja a {
+	display: inline;
+	height: 80px;	
+	font-size: 13px;
+	margin-left: 10px;
+	line-height: 80px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background: none;	
+	color: #500500;
+	font-size: 18px;
+}
+ 
+.navbar-toggle {
+        margin-top: 25px;
+}
+ 
+.content > div {	
+	text-align: center;
+}
+ 
+.content {
+	padding-bottom:50px;
+	padding-top: 80px;
+}
+ 
+footer {
+	background: rgba(51,51,51,1);
+	width:100%;
+	height: 50px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+}
+ 
+footer p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+}
+
+.home_form input {
+    width: 80%;
+    height: 30px;
+    background: silver;
+    color: #fff;
+}
+ 
+.home_form input:last-child {
+    width: 40%;
+    height: 50px;
+}
+ 
+.home_form h2 {
+    margin-top: 220px;
+}
+ 
+.rejestracja > div {
+    text-align: center;
+}
+
+.logowanie > div {
+    text-align: center;
+}
+ 
+.logowanie {
+    margin-top: 50px;
+}
+ 
+.logowanie .home_form input:nth-child(2) {
+    margin-bottom: 10px;
+}
+ 
+.logowanie .home_form input:last-child {
+    margin-top: 10px;
+}
+ 
+.rejestracja input:first-child {
+    margin-top: 10px;
+}
+ 
+label {
+    width: 100%;
+}
+ 
+input.invalid, textarea.invalid{
+    border: 3px solid red;
+}
+ 
+input.valid, textarea.valid{
+    border: 3px solid green;
+}
+ 
+.blad {
+	color: red;	
+}
+ 
+.ok {
+	color: green;	
+}
+
+
+.statystyki ul {
+    list-style: none;
+    padding-left: 0px;
+}
+ 
+.statystyki ul li > img {
+    float: left;
+}
+ 
+.statystyki ul li {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    font-size: 22px;
+}
+ 
+.statystyki ul li button {
+     background: none;
+     border: none;
+     float: right;
+     position: absolute;
+     right: -20px;
+     bottom: 2px;
+}
+#countdown {
+    font-size: 50px;
+}
+ 
+.hours {
+    width: 100px;
+    background: silver;
+    border-radius: 5px;
+    text-align: center;
+}
+ 
+.praca button {
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.item {
+    height: 100px;
+    border: none;
+/*    border: 5px #ccc solid; */
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+ 
+.item img {
+    float: right;
+    margin-right: 20px;
+}
+ 
+.item button {
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    background: rgba(153,0,51,1);
+    color: #fff;
+    font-size: 18px; 
+    float: left;
+    margin-top: 20px;
+}
+
+.user_list {
+    list-style: none;
+}
+ 
+.user_list li {
+    text-align: left;
+    margin-top: 25px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+ 
+.user_list li button {
+    float: right;
+    position: relative;
+    bottom: 3px;
+    font-size: 16px;
+}
+
+.ranking .user_list li {
+    text-align: center;
+}

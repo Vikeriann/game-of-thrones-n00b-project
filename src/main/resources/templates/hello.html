@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <head>
+        <title>Koah</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link href="templates/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="templates/css/style.css" rel="stylesheet" media="screen">
+        <link href="templates/css/smoke.css" rel="stylesheet" media="screen">
+    </head>
+</head>
+<body>
+    <h1>
+        <p th:text="${hello}"/>
+    </h1>
+    <button type="button" class="navbar-toggle button_nav" data-toggle="collapse" data-target="#moje-menu">
+        <span class="sr-only">Nawigacja</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+
+    <hr>
+    <img src="img/dcv71k.jpg" >
+    <hr>
+
+    <section class="content ranking">
+        <div class="container">
+            <h2>Ranking:</h2>
+
+            <div class="row">
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="150" data-base="PLN" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="false" data-volume="true" data-stats="PLN" data-statsticker="true">
+                </div>
+
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="1425" data-base="PLN" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="false" data-volume="true" data-stats="PLN" data-statsticker="true">
+                </div>
+
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+                <div class="coinmarketcap-currency-widget" data-currencyid="382" data-base="PLN" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="false" data-volume="true" data-stats="PLN" data-statsticker="true">
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="templates/js/jquery.min.js"></script>
+    <script src="templates/js/bootstrap.min.js"></script>
+    <script src="templates/js/wlasny.js"></script>
+    <script src="templates/js/smoke.js"></script>
+</body>
+</html>

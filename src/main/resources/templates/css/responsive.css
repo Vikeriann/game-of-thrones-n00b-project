@@ -1,0 +1,17 @@
+body 
+{
+	@media(max-width: 767px)
+	{	
+ 		#ul_nawigacja a 
+		{
+			display: block;
+			height: 50px;	
+			margin-left: 10px;
+			line-height: 50px;
+			color: #fff;
+			font-size: 24px;
+			text-align: center;
+        	background: rgba(153,0,51,1);
+		}
+	}	
+}
